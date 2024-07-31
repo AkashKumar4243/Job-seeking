@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { Context } from "../../main";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaYoutube, FaLinkedin } from "react-icons/fa";

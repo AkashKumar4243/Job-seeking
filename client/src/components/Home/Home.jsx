@@ -1,4 +1,3 @@
-import React from "react";
 import { useContext } from "react";
 import { Context } from "../../main";
 import { Navigate } from "react-router-dom";

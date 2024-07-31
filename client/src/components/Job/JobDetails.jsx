@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -18,6 +18,7 @@ const JobDetails = () => {
       .then((res) => {
         setJob(res.data.job);
       })
+      // eslint-disable-next-line no-unused-vars
       .catch((error) => {
         navigateTo("/notfound");
       });
